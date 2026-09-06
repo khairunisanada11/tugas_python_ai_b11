@@ -16,9 +16,11 @@ print("status_mahasiswa:", status_mahasiswa)
 print("hal_yang_disukai:", hal_yang_disukai)
 
 #2. Manipulasi String
-nama_lengkap = "Na Jaemin"
-
+nama_depan = "Na"
+nama_belakang = "Jaemin"
+nama_lengkap = nama_depan + " " + nama_belakang
 print ("-Manipulasi String-")
+print(nama_lengkap)
 print(len(nama_lengkap))
 print(nama_lengkap.upper())
 print(nama_lengkap.lower())
@@ -27,9 +29,6 @@ cat = "asep ganteng pake banget"
 print (cat.split(" "))
 print (cat.title())
 print (cat.replace ("a", "i"))
-
-Nama = "Khairunisa Nada Rachmanita"
-print(Nama.count("a"))
 
 #3. Operasi Matematika Sederhana
 print("- Operasi Aritmatika-")
